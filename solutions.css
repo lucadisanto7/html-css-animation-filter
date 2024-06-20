@@ -3,7 +3,7 @@
     background-color: red;
     transition: 5s;
 }
-.ex-2-square:hover{
+.ex-2-square:active{
     width: 100%;
     transition: 7s;
 }
