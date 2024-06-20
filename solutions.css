@@ -70,3 +70,34 @@
         transform: rotate(0deg);
     }
 }
+.ex-12-button:hover .ex-12-top-white {
+    animation: moveTop 1.5s ease forwards;
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: moveBottom 1.5s ease forwards;
+}
+
+@keyframes moveTop {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(80px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveBottom {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-80px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
