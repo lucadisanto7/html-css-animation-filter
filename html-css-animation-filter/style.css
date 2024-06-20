@@ -99,3 +99,7 @@
 .ex-6-img:hover{
     filter: grayscale(100%);
 }
+.ex-7-img:hover{
+    filter: grayscale(100%);
+    transition: 3s;
+}
